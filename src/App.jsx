@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <Header></Header>
-      <div className="md:flex items-center justify-center">
+      <div className="md:flex justify-center">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
