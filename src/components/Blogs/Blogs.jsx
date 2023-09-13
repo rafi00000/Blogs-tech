@@ -13,7 +13,7 @@ const Blogs = () => {
   console.log(blogs);
 
   return (
-    <div className="w-2/3 mt-5">
+    <div className="md:w-2/3 mt-5">
       <h1 className="text-2xl font-bold ">Blogs Count: {blogs.length}</h1>
       <div className="blog-container">
         {blogs.map((blog) => (
